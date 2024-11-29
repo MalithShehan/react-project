@@ -1,20 +1,9 @@
-export default function ButtonComponent() {
+export default function ButtonComponent(prpos: {name: string}) {
     return (
         <>
-            <button>Click Me</button>
-            <button>Click Me</button>
-            <button>Click Me</button>
+            <button>{prpos.name}</button>
         </>
     );
 }
 
-export function MyButton() {
-    return (
-        <>
-            <button>Click Me</button>
-            <button>Click Me</button>
-            <button>Click Me</button>
-        </>
-    );
-}
 
